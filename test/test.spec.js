@@ -3,7 +3,7 @@
 const { Builder, By } = require("selenium-webdriver");
 const chrome = require('chromedriver');
  
-const url = 'http://localhost:3002';
+const url = 'https://oktat.github.io/msg/';
  
 describe('Üzenő', () => {
     var driver = null;
